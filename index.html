@@ -1,0 +1,51 @@
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Static Resume Builder By Sania Sajjad</h1>
+    <form id="resume form">
+        <fieldset>
+        <legend>personal Information</legend>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email: </label>
+        <input type="email"id="email" name="Email" required>
+        <label for="phone">phone: </label>
+        <input type="tel" id="phone" name="phone"required>
+        <label for="Address">Address : </label>
+        <input type="add" id="add" name="Address"required>
+
+        <!-- Profile Picture -->
+        <label for="profilePicture">Profile Picture: </label>
+        <input type="file" id="profilePicture" name="profilePicture" accept="image/*" required><br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Education</legend>
+            <label for="Education">Education</label>
+            <textarea id="Education" name="Education" rows="4" required></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Experience</legend>
+            <label for="experience">Experience</label>
+            <textarea id="experience" name="experience" rows="4" required></textarea><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="Skills">Skills</label>
+            <textarea id="Skills" name="skills" rows="4" required></textarea><br>
+        </fieldset>
+        
+        <button type="submit">Generate Resume Below </button>
+
+    </form>
+    
+</body>
+</html>
